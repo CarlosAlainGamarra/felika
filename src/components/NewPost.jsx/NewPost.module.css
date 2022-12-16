@@ -1,0 +1,25 @@
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  background-color: rgb(196, 212, 226);
+  padding: 10px;
+  margin: 30px;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.textArea {
+  width: 96%;
+  border-radius: 10px;
+  border:2px solid rgb(11, 62, 109);
+  padding: 10px;
+}
+
+
+.postButton {
+  width: 45px;
+  margin-right: 5px;
+  align-self: flex-end;
+}

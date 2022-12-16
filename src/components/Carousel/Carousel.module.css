@@ -1,0 +1,15 @@
+.carousel_container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: solid 1px black;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(7, 82, 148);
+  color: aliceblue;
+}
+
+.bandLink {
+  color: white;
+  font-weight: normal;
+}

@@ -1,0 +1,104 @@
+/*Paleta de colores
+color1: #000000
+color2: #1693a5
+color3: #d8d8c0
+color4: #f0f0d8
+color5: #ffffff 
+*/
+
+a {
+  text-decoration: none;
+  color: #1693a5;
+  font-weight: bold
+}
+
+a:hover {
+  color: rgb(218, 233, 233)
+}
+
+.fullContainer {
+  background-image: url('../../../public/images/felika.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(240, 240, 216, 0.3);
+  /*border: solid 1px #d8d8c0;*/
+  width: 50%
+}
+
+.container > form {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.container > form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px
+}
+
+input {
+  outline: none;
+  border: solid 1px black;
+  border-radius: 3px;
+  height: 20px
+}
+
+input:focus {
+  background-color: rgb(226, 220, 245);
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #1693a5;
+  border: solid 1px black;
+  border-radius: 3px;
+  height: 25px
+}
+
+button:hover {
+  background-color: #197988
+}
+
+button:active {
+  background-color: rgb(35, 184, 184)
+}
+
+/*Error messages*/
+
+.input_error {
+  border-color: crimson;
+}
+
+.span_error {
+  color: rgb(138, 9, 35);
+  font-weight: bold; 
+}
+
+
+@media(max-width: 530px){
+ .container {
+    width: 100%;
+    background-color: rgb(22, 147, 165, 0.3);
+  }
+
+  .fullContainer {
+    background-image: url('../../../public/images/felika2.jpg');
+  }
+
+}

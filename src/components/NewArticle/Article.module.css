@@ -1,0 +1,40 @@
+
+.newsContainer {
+  height: 100vh;
+}
+
+.article_Container {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px;
+
+}
+
+.article_title {
+  width: 90%;
+}
+
+.tools_bar {
+  border: solid 1px black
+}
+
+.article {
+  text-align: center;
+}
+
+.image{
+  background-color: rgb(125, 144, 160);
+  width: 1024px;
+  height: 1024px
+}
+
+@media(max-width:560px){
+  .image{
+    background-color: rgb(125, 144, 160);
+    max-width: 560px;
+    height: auto;
+  }
+}
+
+
